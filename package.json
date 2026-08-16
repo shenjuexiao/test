@@ -18,6 +18,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "build-ghpages": "npm run build",
     "clean": "rm -rf _site",
     "build:css": "tailwindcss -i ./src/assets/css/theme.css -o ./_site/assets/css/theme.css --minify",
     "watch:css": "tailwindcss -i ./src/assets/css/theme.css -o ./_site/assets/css/theme.css --watch",
